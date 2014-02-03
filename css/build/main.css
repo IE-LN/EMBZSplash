@@ -20,7 +20,7 @@ a {
 }
 
 #splash {
-	background: transparent url(images/splash-repeat.jpg) repeat-x 0 0/contain;
+	background: transparent url(../images/splash-repeat.jpg) repeat-x 0 0/contain;
 	text-align: center;
 }
 
