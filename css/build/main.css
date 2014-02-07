@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Montserrat-Regular';
-	src: url('fonts/Montserrat-Regular.ttf');
+	src: url('/fonts/Montserrat-Regular.ttf');
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 a {
 	color: #3baf29;
 	text-decoration: none;
+	outline: none;
 }
 
 .container {
@@ -20,7 +21,7 @@ a {
 }
 
 #splash {
-	background: transparent url(../images/splash-repeat.jpg) repeat-x 0 0/contain;
+	background: transparent url(/images/splash-repeat.jpg) repeat-x 0 0/contain;
 	text-align: center;
 }
 
@@ -37,6 +38,7 @@ a {
 	height: 107px;
 	line-height: 107px;
 	text-transform: uppercase;
+	overflow: hidden;
 }
 
 #footer-contact {
@@ -47,10 +49,40 @@ a {
 	padding: 0;
 }
 
-#footer-contact li {
+#footer-contact li,
+#footer-social li {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 32px;
+}
+
+#footer-social {
+	position: absolute;
+	height: 42px;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+	left: 5%;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	   -moz-transform: translate(0, -50%);
+	     -o-transform: translate(0, -50%);
+		 	transform: translate(0, -50%);
+}
+
+#social-facebook a,
+#social-twitter a {
+	width: 42px;
+	height: 42px;
+	display: block;
+}
+
+#social-facebook a {
+	background: transparent url(/images/facebook.png) no-repeat 0 0;
+}
+
+#social-twitter a {
+	background: transparent url(/images/twitter.png) no-repeat 0 0;
 }
 
 #footer-logo {
