@@ -189,6 +189,20 @@ a {
 		font-size: 25px;
 	}
 	
+	#footer {
+		height: 120px;
+	}
+	
+	#footer-contact {
+		width: 100%;
+		line-height: normal;
+		margin: 15px auto;
+	}
+	
+	#footer-contact li {
+		margin-right: 10px;
+	}
+	
 	#footer-social,
 	#footer-logo {
 		bottom: 5px;
@@ -196,8 +210,10 @@ a {
 	}
 	
 	#footer-social {
+/*
 		left: 50%;
 		transform: translate(-50%, 0);
+*/
 	}
 }
 
@@ -207,7 +223,7 @@ a {
 	#splash-left {
 		width: 95%;
 		margin: 0 auto;
-		height: 350px;
+		height: 300px;
 	}
 	
 	#splash-right {
