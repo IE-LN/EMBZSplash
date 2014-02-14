@@ -110,6 +110,7 @@ a {
 	font-weight: bold;
 	line-height: 30px;
 	text-transform: uppercase;
+	overflow: hidden;
 /*
 	position: absolute;
 	left: 50%;
@@ -261,5 +262,9 @@ a {
 	
 	#splash-right {
 		width: 100%;
+	}
+	
+	#splash-hotel {
+		font-size: 12px;
 	}
 }
