@@ -242,13 +242,6 @@ a {
 		bottom: 5px;
 		top: auto;
 	}
-	
-	#footer-social {
-/*
-		left: 50%;
-		transform: translate(-50%, 0);
-*/
-	}
 }
 
 
@@ -266,5 +259,6 @@ a {
 	
 	#splash-hotel {
 		font-size: 12px;
+		margin-top: 10px;
 	}
 }
