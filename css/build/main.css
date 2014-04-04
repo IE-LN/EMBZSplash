@@ -223,6 +223,11 @@ a {
 		font-size: 25px;
 	}
 	
+	#splash-hotel {
+		font-size: 11px;
+		line-height: 30px;
+	}
+	
 	#footer {
 		height: 120px;
 	}
@@ -260,5 +265,13 @@ a {
 	#splash-hotel {
 		font-size: 12px;
 		margin-top: 10px;
+		line-height: normal;
+	}
+}
+
+@media all and (max-width: 500px) {
+	#splash-hotel {
+		font-size: 10px;
+		line-height: 30px;
 	}
 }
